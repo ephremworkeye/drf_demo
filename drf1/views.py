@@ -9,7 +9,7 @@ from .serializers import PersonSerializer
 @api_view(['GET'])
 def list_people(request):
     peoples = Person.objects.all()
-    serializer = PersonSerializer(peoples, Many=True)
+    serializer = PersonSerializer(peoples, many=True)
     content = {
         'people': serializer.data
     }
