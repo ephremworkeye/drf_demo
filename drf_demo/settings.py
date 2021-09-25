@@ -133,3 +133,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/books/library/'
+
+# SESSION_ENGINE = "django.contrib.sessions.backends.cache" # if we want session to be stored in memory

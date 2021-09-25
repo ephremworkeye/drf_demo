@@ -22,5 +22,5 @@ urlpatterns = [
     path('people/', include('drf1.urls')),
     path('product/', include('drf2.urls')),
     path('movie/', include('movies.urls')),
-    path('books/', include('books.urls')),
+    path('book/', include('books.urls')),
 ]
