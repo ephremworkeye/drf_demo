@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'drf2',
     'movies',
     'books',
+    'vehicles',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',

@@ -23,4 +23,5 @@ urlpatterns = [
     path('product/', include('drf2.urls')),
     path('movie/', include('movies.urls')),
     path('book/', include('books.urls')),
+    path('tool/', include('vehicles.urls')),
 ]
